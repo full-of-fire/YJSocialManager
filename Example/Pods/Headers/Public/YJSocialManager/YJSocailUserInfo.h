@@ -1,0 +1,1 @@
+../../../YJSocialManager/YJSocialManager/Classes/YJSocailUserInfo.h

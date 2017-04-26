@@ -7,7 +7,7 @@
 //
 
 #import "YJViewController.h"
-
+#import <YJSocialManager/YJSocialManger.h>
 @interface YJViewController ()
 
 @end
@@ -20,10 +20,21 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)requestQQLogin:(id)sender {
+    
+    
+    [[YJSocialManger sharedManger] requestUserInfoWithPlatformType:YJSocialPlatfromType_QQ success:^(YJSocailUserInfo *userInfo) {
+       
+        NSLog(@"成功");
+        
+    } fail:^(NSError *error) {
+        
+        NSLog(@"失败");
+    }];
+    
 }
+
+
 
 @end

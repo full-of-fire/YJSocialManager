@@ -1,7 +1,7 @@
-use_frameworks!
+#use_frameworks!
 
 target 'YJSocialManager_Example' do
-  pod 'YJSocialManager', :path => '../'
+  pod 'YJSocialManager'
 
   target 'YJSocialManager_Tests' do
     inherit! :search_paths

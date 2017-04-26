@@ -1,16 +1,37 @@
 PODS:
-  - YJSocialManager (0.1.0)
+  - UMengUShare/Core (6.4.3):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.3)
+  - UMengUShare/Social/QQ (6.4.3):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.3):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/TencentWeibo (6.4.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.3):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - YJSocialManager (1.0.1):
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
+    - UMengUShare/Social/TencentWeibo
+    - UMengUShare/Social/WeChat
 
 DEPENDENCIES:
-  - YJSocialManager (from `../`)
-
-EXTERNAL SOURCES:
-  YJSocialManager:
-    :path: ../
+  - YJSocialManager
 
 SPEC CHECKSUMS:
-  YJSocialManager: fb4790288c7eb23914b28b38ff23115a71f822bb
+  UMengUShare: d39cb682598df87ebdd3c055d03d00eb0102d42c
+  YJSocialManager: 7979b029f14efcc8c09c81029878d71f3ec94a89
 
-PODFILE CHECKSUM: 0e0a71461a090ec53e2661d1c6f50374361f83ed
+PODFILE CHECKSUM: 38651ef826b29b9c2d6724b726076bf4288c5ec2
 
 COCOAPODS: 1.2.1

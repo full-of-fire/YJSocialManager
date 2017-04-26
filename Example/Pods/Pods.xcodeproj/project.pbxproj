@@ -7,186 +7,333 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15CE4008BCDC423E7DEF0726B6DB0C93 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4317E171C0BCA480CE21115930A8C1 /* ReplaceMe.m */; };
-		4DD3718B9B827D3DB71BD97189DFA933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		52D6B4B70E6DF8599D24A53080954314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6977D59DE3E1A9EA12A1ABAFE990BE22 /* YJSocialManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F224AB8D20BFA6F81DB916DC14872D4 /* YJSocialManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83A3B1F9879106F8759336D8DAFDFB7C /* YJSocialManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD6541939AEBA8CBEC72ED59B7ABC3 /* YJSocialManager-dummy.m */; };
-		9FCE9E7B136C4F5D5CE7B61DCF6C56B3 /* Pods-YJSocialManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E97D09408FEF6D494AEA671CD57B2 /* Pods-YJSocialManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADBC729AA021D83584E3EA0FBA683524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BD3C277CC16C9A677C569A7C128FD8B4 /* Pods-YJSocialManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A717E73C742BD2C8887D459D283F62D4 /* Pods-YJSocialManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5DA698E3D5B2CF4CE1CBA1D82B32D99 /* Pods-YJSocialManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 996DF220DE882D0CF3487CF0245A778D /* Pods-YJSocialManager_Tests-dummy.m */; };
-		FF16D069963059C60A7C538458243FEA /* Pods-YJSocialManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D23CAF97A99732392E5DF55890DEFB /* Pods-YJSocialManager_Example-dummy.m */; };
+		12FD48793835069278D5D798346431A5 /* YJSocailUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E024F9A4036558653C64A6FCA88E63B /* YJSocailUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22748001D94B2CCBA3054DFF1DD2ADF7 /* YJSocialManger.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D864FA8EC561BB7EB2F0017C5A6EF9 /* YJSocialManger.m */; };
+		54B7A74C36F7CF61EB77724B51B4F261 /* YJSocialManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 535DE63B76A2B6300B952EE730ED9FC5 /* YJSocialManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6892630DE358B2955058E6DEB2C8E842 /* YJSocailUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C4E6E0099BF6770BE2B9487FE3B0AC /* YJSocailUserInfo.m */; };
+		765B17ABE8AFE088DC7F84D232DD733B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8FF110FC23282BB738D0EE05DB0C731E /* YJSocialManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55AAEA64E31C0CBBEF31B53B7A6052 /* YJSocialManager-dummy.m */; };
+		9DEE0B18633622B0B4F86C1DC1E1146A /* YJSocialAppCofig.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B8A460C7F579055DA189BBA2DC5D1F /* YJSocialAppCofig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EF52CDC5565A593AEF648042731CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C9FA378AC62ADE5A99B44E3074938C92 /* Pods-YJSocialManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5D107BB6DAECA1DABC4D8C21B64F8 /* Pods-YJSocialManager_Example-dummy.m */; };
+		DC17BC710E97E4AD1D076075C2DA7561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E1A3FE31368E7D2AB308B4A9C23ABF1F /* Pods-YJSocialManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4057F6E4FDB74B7FD574C95D6EDCDFF /* Pods-YJSocialManager_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DD815DA8C24B936E3679A8F94C5313B7 /* PBXContainerItemProxy */ = {
+		021A6E17A23156819E3ABA506D188C61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5B1D69E12C13C8127DEB16EF49ECC8FB;
+			remoteGlobalIDString = 5E667A556D399E3FBB172AB86D7FF827;
 			remoteInfo = YJSocialManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03F7E41510AC50CD94CFBACCBE9E0EAF /* Pods-YJSocialManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSocialManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0F224AB8D20BFA6F81DB916DC14872D4 /* YJSocialManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJSocialManager-umbrella.h"; sourceTree = "<group>"; };
-		0F7358F5588934A74A1EC830085F693B /* Pods-YJSocialManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSocialManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		13D9B093A68C40896AD8343E239B5D4B /* Pods-YJSocialManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJSocialManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		178B57BDEE048AB37E1E348228806123 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AFD6541939AEBA8CBEC72ED59B7ABC3 /* YJSocialManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJSocialManager-dummy.m"; sourceTree = "<group>"; };
-		24D23CAF97A99732392E5DF55890DEFB /* Pods-YJSocialManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJSocialManager_Example-dummy.m"; sourceTree = "<group>"; };
-		3AEC0CD1B1D964F0D9B07E409E6CFDE9 /* Pods-YJSocialManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YJSocialManager_Tests.modulemap"; sourceTree = "<group>"; };
-		4B581CA469C4BB8BCDC9A52EE4ED4235 /* Pods_YJSocialManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJSocialManager_Example.framework; path = "Pods-YJSocialManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		524B14D8F0C5A864784A9BCF1941314D /* Pods-YJSocialManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSocialManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		52AE2BD18257A02F42C7FB1ABB5C994C /* YJSocialManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJSocialManager.framework; path = YJSocialManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54B9E7B8B6D03D4705C5946F53123403 /* Pods-YJSocialManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJSocialManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		04B8A460C7F579055DA189BBA2DC5D1F /* YJSocialAppCofig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSocialAppCofig.h; path = YJSocialManager/Classes/YJSocialAppCofig.h; sourceTree = "<group>"; };
+		1957FD6A835169BDE9AA80D945A293A5 /* libSocialTencentWeibo.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialTencentWeibo.a; path = UShareSDK/SocialLibraries/TencentWeibo/libSocialTencentWeibo.a; sourceTree = "<group>"; };
+		1F20A375ADD0EEEE3D3B560FEA50B5C5 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		228C52055EC86AF29D76BAEE79581CE1 /* Pods-YJSocialManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSocialManager_Example-resources.sh"; sourceTree = "<group>"; };
+		233B89078066459AB6C1AE9A3F0A004A /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		262BFE37A5F2162E6C8E81D77BA2D75A /* Pods-YJSocialManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSocialManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		27137E6599D3F40C7657616643230208 /* libUMSocialLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSocialLog.a; path = UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a; sourceTree = "<group>"; };
+		2948EC6E54E59903D043EA805F32D70D /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UShareSDK/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		2C508726FA7638211E789C706D64CB10 /* libUMSocialCloudShare.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSocialCloudShare.a; path = UShareSDK/UMSocialSDKPlugin/libUMSocialCloudShare.a; sourceTree = "<group>"; };
+		300A5620C1FEE00692A1DE2D80E76C2B /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKPromptResources.bundle; path = UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		30247678A0E316E078EE0285838EB301 /* YJSocialManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJSocialManager-prefix.pch"; sourceTree = "<group>"; };
+		30C4E6E0099BF6770BE2B9487FE3B0AC /* YJSocailUserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJSocailUserInfo.m; path = YJSocialManager/Classes/YJSocailUserInfo.m; sourceTree = "<group>"; };
+		38972AACFF9A757B18C22733631120E7 /* Pods-YJSocialManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSocialManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		417ACEABCBF749A2940E56F9B47D6B60 /* libPods-YJSocialManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YJSocialManager_Example.a"; path = "libPods-YJSocialManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C285DE3F2D169B7F49FCA3BF2B6835 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UShareSDK/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
+		425A523BE757C4DC2246ED3B497AB20B /* libPods-YJSocialManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YJSocialManager_Tests.a"; path = "libPods-YJSocialManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515C54F9E631BC9847C862BC5446C21A /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		51CD0B84F2D05E1206B0C5C48A0F91EA /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		535DE63B76A2B6300B952EE730ED9FC5 /* YJSocialManger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSocialManger.h; path = YJSocialManager/Classes/YJSocialManger.h; sourceTree = "<group>"; };
+		574B2F6BE6CAD5CC1A0E7CDB8EC3D5FC /* Pods-YJSocialManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSocialManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		58B2639B6EC5971A704F9C9CB6F60D53 /* Pods-YJSocialManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSocialManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		657499AD26556D07E08C6ACBB6630D1F /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F0824EE82A5F7049E24C5B41ED11A7E /* YJSocialManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJSocialManager.xcconfig; sourceTree = "<group>"; };
-		72B5FDD196A463EE93EE6F06CD69D38A /* Pods-YJSocialManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YJSocialManager_Example.modulemap"; sourceTree = "<group>"; };
-		73990197AE62C504BC7E1EDBE1EF7021 /* Pods-YJSocialManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJSocialManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7B29F6B23E2E7644800C6B49FDC8144E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80C3BDAA88DCAE10F3CA53794A95B70A /* Pods-YJSocialManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSocialManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8C1EEB833FC3BB3904D60B9422ACE5D4 /* Pods-YJSocialManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJSocialManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6757CC96AE7AE574EADA44A1407187BB /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WeiboSDK+Statistics.h"; path = "UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
+		68213E15D96961576AD8CE1C49B53717 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		68C25EABBE6694B3B82B56D62F1C58C8 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		6E024F9A4036558653C64A6FCA88E63B /* YJSocailUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSocailUserInfo.h; path = YJSocialManager/Classes/YJSocailUserInfo.h; sourceTree = "<group>"; };
+		6EDD59C01E21AA56B4418F2EBAEE5E73 /* Pods-YJSocialManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSocialManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7316C1E408618869454982DAE248F3D3 /* Pods-YJSocialManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJSocialManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76E5D107BB6DAECA1DABC4D8C21B64F8 /* Pods-YJSocialManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJSocialManager_Example-dummy.m"; sourceTree = "<group>"; };
+		86FA0F5165048E9FF7F5630CDCB67F6E /* YJSocialManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJSocialManager.xcconfig; sourceTree = "<group>"; };
+		8A30B4A08D677AD885BBF9F6BDAF3E07 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = UShareSDK/SocialLibraries/WeChat/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		902CB55C1C71116A9044DB372C500372 /* Pods-YJSocialManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJSocialManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		996DF220DE882D0CF3487CF0245A778D /* Pods-YJSocialManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJSocialManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		9DEFAC0916A47D3C78682513A3F79962 /* Pods-YJSocialManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSocialManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		A717E73C742BD2C8887D459D283F62D4 /* Pods-YJSocialManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJSocialManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		B3C75567B034A6CC9FCAD950490900D6 /* YJSocialManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJSocialManager-prefix.pch"; sourceTree = "<group>"; };
-		B529C756CBF964B371EBEE6401DAD6F5 /* YJSocialManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YJSocialManager.modulemap; sourceTree = "<group>"; };
-		B96CD68CBA24BAD7BADE88CA0AD8C31E /* Pods_YJSocialManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJSocialManager_Tests.framework; path = "Pods-YJSocialManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C24E97D09408FEF6D494AEA671CD57B2 /* Pods-YJSocialManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJSocialManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C321C7BD0E495A6945CFAF26A7E3CCB9 /* Pods-YJSocialManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSocialManager_Example-resources.sh"; sourceTree = "<group>"; };
-		E18D7615D51CFF0EAF35ADAD0348D40F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE4317E171C0BCA480CE21115930A8C1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		F35107F48EB1A43CB6EB69E2FF474E25 /* Pods-YJSocialManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSocialManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FEC1209F84DCEF83854238F1A46FD86B /* Pods-YJSocialManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSocialManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9A526F7DB0990A7B2785BE5351E71E46 /* Pods-YJSocialManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJSocialManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CF03A605BDD8E8895AA2B7A8A79BCFD /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = UShareSDK/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
+		A9355C16558B2F5918299D9076584D7D /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaHandler.h; path = UShareSDK/SocialLibraries/Sina/UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		AA55AAEA64E31C0CBBEF31B53B7A6052 /* YJSocialManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJSocialManager-dummy.m"; sourceTree = "<group>"; };
+		AB1577FF7496D344F57FC2FA53DF0666 /* libYJSocialManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYJSocialManager.a; path = libYJSocialManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2F8BF6995BC645C3295186239D4294 /* UMSocialTCWeiboHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialTCWeiboHandler.h; path = UShareSDK/SocialLibraries/TencentWeibo/UMSocialTCWeiboHandler.h; sourceTree = "<group>"; };
+		AF1594CC4C252C9165656CFF85D56760 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		B281D20269E5F3490DAF21F6BF23A59D /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboUser.h; sourceTree = "<group>"; };
+		B4057F6E4FDB74B7FD574C95D6EDCDFF /* Pods-YJSocialManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJSocialManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		B719A768C215D7019BAE7A8EBAD4AFCF /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = UShareSDK/SocialLibraries/WeChat/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		BF3AC68D9C8E2ADC7128EAB5FAD708DF /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UShareSDK/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		C72E60C45A132C2B1E5B313E400CC4CE /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialCore.framework; path = UShareSDK/UMSocialSDK/UMSocialCore.framework; sourceTree = "<group>"; };
+		C9D864FA8EC561BB7EB2F0017C5A6EF9 /* YJSocialManger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJSocialManger.m; path = YJSocialManager/Classes/YJSocialManger.m; sourceTree = "<group>"; };
+		CAD151E6A3C03085B9C3BEAC637ABBC7 /* Pods-YJSocialManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSocialManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF8C61A79F11D515C30503F674A59ADD /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = UShareSDK/SocialLibraries/WeChat/WechatSDK/WXApi.h; sourceTree = "<group>"; };
+		D41F03EED2547BFFF073715F57E3E0C9 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		D48066B8F64571D267C76FA42250B454 /* Pods-YJSocialManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJSocialManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D995795CE05AF1C9D4A0B3D0183E0CF9 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		E48E0B34622FFD0BE145DA911DFEF127 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		E6E1F47DE5F41AA6B7D79FCD87B700A3 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		EB687D43E2E6F9E336FCA414DE3B50EB /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UShareSDK/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
+		F12F9E82CF9880507B7019F9971B31F5 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = UShareSDK/SocialLibraries/WeChat/WechatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		F8AD52794F33A895E16635B7A3F0035B /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		FAACAD1BE0575CD11EB3CB6A01A5156D /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialNetwork.framework; path = UShareSDK/UMSocialSDK/UMSocialNetwork.framework; sourceTree = "<group>"; };
+		FF754AE031DF222593261FFC40D2A9D3 /* Pods-YJSocialManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSocialManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00D4E95964CB23EEDDF6C3693D3012FA /* Frameworks */ = {
+		3794E8B4A7C8500EC93FC7D42FFA1FBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBC729AA021D83584E3EA0FBA683524 /* Foundation.framework in Frameworks */,
+				765B17ABE8AFE088DC7F84D232DD733B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1953A48A602D50AB0CCB9CE1928324D1 /* Frameworks */ = {
+		77380FA8F261BA2A49B0550AC824BB9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D6B4B70E6DF8599D24A53080954314 /* Foundation.framework in Frameworks */,
+				A1EF52CDC5565A593AEF648042731CEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8E607C855B83BC41EC7FCAEDAF18125 /* Frameworks */ = {
+		8004BBEF16AD3598087189DD3A4ACEF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD3718B9B827D3DB71BD97189DFA933 /* Foundation.framework in Frameworks */,
+				DC17BC710E97E4AD1D076075C2DA7561 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F67DE6FAEEF1D93F6DDCB1487B3C14 /* Support Files */ = {
+		02D2AAFE827D63191093F253CF3594FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E18D7615D51CFF0EAF35ADAD0348D40F /* Info.plist */,
-				B529C756CBF964B371EBEE6401DAD6F5 /* YJSocialManager.modulemap */,
-				6F0824EE82A5F7049E24C5B41ED11A7E /* YJSocialManager.xcconfig */,
-				1AFD6541939AEBA8CBEC72ED59B7ABC3 /* YJSocialManager-dummy.m */,
-				B3C75567B034A6CC9FCAD950490900D6 /* YJSocialManager-prefix.pch */,
-				0F224AB8D20BFA6F81DB916DC14872D4 /* YJSocialManager-umbrella.h */,
+				8A30B4A08D677AD885BBF9F6BDAF3E07 /* libWeChatSDK.a */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YJSocialManager";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		377FF26720D537AA4005275DBE7FE54E /* YJSocialManager */ = {
+		09448F3F54A0B17E8FE98C1F59F0CF33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A1B838E0E1B1D58E89C3EB384E4B141 /* Classes */,
+				D41F03EED2547BFFF073715F57E3E0C9 /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19F170EB664CEF21A6D256A5215C0908 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4B14743A165FAC99A0B149D7A1B04ECA /* Frameworks */,
+				57B660BB04112C918341777EFE66CDBA /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1C0986C833FE3393AA9BA3BE78A25D43 /* YJSocialManager */ = {
+			isa = PBXGroup;
+			children = (
+				6E024F9A4036558653C64A6FCA88E63B /* YJSocailUserInfo.h */,
+				30C4E6E0099BF6770BE2B9487FE3B0AC /* YJSocailUserInfo.m */,
+				04B8A460C7F579055DA189BBA2DC5D1F /* YJSocialAppCofig.h */,
+				535DE63B76A2B6300B952EE730ED9FC5 /* YJSocialManger.h */,
+				C9D864FA8EC561BB7EB2F0017C5A6EF9 /* YJSocialManger.m */,
+				9056B52F9603099AEF8AEBF924E6D602 /* Support Files */,
 			);
 			name = YJSocialManager;
 			path = YJSocialManager;
 			sourceTree = "<group>";
 		};
-		5A1B838E0E1B1D58E89C3EB384E4B141 /* Classes */ = {
+		250DDBBB42C3CEA410D1E4D0B07A0F62 /* Pods-YJSocialManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				EE4317E171C0BCA480CE21115930A8C1 /* ReplaceMe.m */,
+				D48066B8F64571D267C76FA42250B454 /* Pods-YJSocialManager_Tests-acknowledgements.markdown */,
+				7316C1E408618869454982DAE248F3D3 /* Pods-YJSocialManager_Tests-acknowledgements.plist */,
+				B4057F6E4FDB74B7FD574C95D6EDCDFF /* Pods-YJSocialManager_Tests-dummy.m */,
+				38972AACFF9A757B18C22733631120E7 /* Pods-YJSocialManager_Tests-frameworks.sh */,
+				574B2F6BE6CAD5CC1A0E7CDB8EC3D5FC /* Pods-YJSocialManager_Tests-resources.sh */,
+				58B2639B6EC5971A704F9C9CB6F60D53 /* Pods-YJSocialManager_Tests.debug.xcconfig */,
+				262BFE37A5F2162E6C8E81D77BA2D75A /* Pods-YJSocialManager_Tests.release.xcconfig */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Pods-YJSocialManager_Tests";
+			path = "Target Support Files/Pods-YJSocialManager_Tests";
 			sourceTree = "<group>";
 		};
-		769367DB750C4FCAF17ABE68659B37AB /* YJSocialManager */ = {
+		2B5D742AEFFC0C55DCDA530E7E2BBEC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				02F67DE6FAEEF1D93F6DDCB1487B3C14 /* Support Files */,
-				377FF26720D537AA4005275DBE7FE54E /* YJSocialManager */,
+				9CF03A605BDD8E8895AA2B7A8A79BCFD /* libSocialSina.a */,
 			);
-			name = YJSocialManager;
-			path = ../..;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3323621246A108661663AE9E351AD3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417ACEABCBF749A2940E56F9B47D6B60 /* libPods-YJSocialManager_Example.a */,
+				425A523BE757C4DC2246ED3B497AB20B /* libPods-YJSocialManager_Tests.a */,
+				AB1577FF7496D344F57FC2FA53DF0666 /* libYJSocialManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35581D81A44D79549D95E6EED6D5BD99 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				F12F9E82CF9880507B7019F9971B31F5 /* WechatAuthSDK.h */,
+				CF8C61A79F11D515C30503F674A59ADD /* WXApi.h */,
+				B719A768C215D7019BAE7A8EBAD4AFCF /* WXApiObject.h */,
+				02D2AAFE827D63191093F253CF3594FF /* Frameworks */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		35839061CA6D17F46CB94FC421A6094C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				657499AD26556D07E08C6ACBB6630D1F /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4650072FC8D52BF62F750E7C3DBE2497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D995795CE05AF1C9D4A0B3D0183E0CF9 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4802CCEB9BEBAA80263884F5A07B452C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1957FD6A835169BDE9AA80D945A293A5 /* libSocialTencentWeibo.a */,
+				2C508726FA7638211E789C706D64CB10 /* libUMSocialCloudShare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B14743A165FAC99A0B149D7A1B04ECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27137E6599D3F40C7657616643230208 /* libUMSocialLog.a */,
+				C72E60C45A132C2B1E5B313E400CC4CE /* UMSocialCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57B660BB04112C918341777EFE66CDBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				300A5620C1FEE00692A1DE2D80E76C2B /* UMSocialSDKPromptResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5B4F8AB6A7F3BDBC1D1644BF11FC5DCD /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				E4585A60A68269D99A3EE419B25DA36E /* QQ */,
+				E95F47446FF0747A84BB661AA3529CB5 /* ReducedQQ */,
+				C3B240B6F89A841A76F2614F09CBE483 /* ReducedSina */,
+				72F699F9860D495453CEC36C3BE4877B /* ReducedWeChat */,
+				AB3C36721E819FB21685752D10BF5D82 /* Sina */,
+				C4898726C6A7AF4EC34D30C8F0A1234C /* TencentWeibo */,
+				35581D81A44D79549D95E6EED6D5BD99 /* WeChat */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		5DCEE2CD355AC8AB80D9F1028C81FDA0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD038350497306E71171BF6EC934E3C /* Pods-YJSocialManager_Example */,
+				250DDBBB42C3CEA410D1E4D0B07A0F62 /* Pods-YJSocialManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6E1A84753FA1A10DBF0B88867B7FE485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C285DE3F2D169B7F49FCA3BF2B6835 /* libSocialWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72F699F9860D495453CEC36C3BE4877B /* ReducedWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				2948EC6E54E59903D043EA805F32D70D /* UMSocialWechatHandler.h */,
+				6E1A84753FA1A10DBF0B88867B7FE485 /* Frameworks */,
+			);
+			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		73668FAE028863A658E8705B9240A83E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6DBFBDAB304F6314F67ECA1691C666C /* UMengUShare */,
+				1C0986C833FE3393AA9BA3BE78A25D43 /* YJSocialManager */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				87AC9719BDF793AD6132C97BB94F3097 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D695B007E8F60306282B274CE7BCF380 /* Products */,
-				F40BC2B1EE0D8C3B31B44514BC79CC3E /* Targets Support Files */,
+				73668FAE028863A658E8705B9240A83E /* Pods */,
+				3323621246A108661663AE9E351AD3A2 /* Products */,
+				5DCEE2CD355AC8AB80D9F1028C81FDA0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87AC9719BDF793AD6132C97BB94F3097 /* Development Pods */ = {
+		9056B52F9603099AEF8AEBF924E6D602 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				769367DB750C4FCAF17ABE68659B37AB /* YJSocialManager */,
+				86FA0F5165048E9FF7F5630CDCB67F6E /* YJSocialManager.xcconfig */,
+				AA55AAEA64E31C0CBBEF31B53B7A6052 /* YJSocialManager-dummy.m */,
+				30247678A0E316E078EE0285838EB301 /* YJSocialManager-prefix.pch */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/YJSocialManager";
 			sourceTree = "<group>";
 		};
-		A3FD362426351EB78F04126C5B4D0CE1 /* Pods-YJSocialManager_Tests */ = {
+		AB3C36721E819FB21685752D10BF5D82 /* Sina */ = {
 			isa = PBXGroup;
 			children = (
-				7B29F6B23E2E7644800C6B49FDC8144E /* Info.plist */,
-				3AEC0CD1B1D964F0D9B07E409E6CFDE9 /* Pods-YJSocialManager_Tests.modulemap */,
-				8C1EEB833FC3BB3904D60B9422ACE5D4 /* Pods-YJSocialManager_Tests-acknowledgements.markdown */,
-				13D9B093A68C40896AD8343E239B5D4B /* Pods-YJSocialManager_Tests-acknowledgements.plist */,
-				996DF220DE882D0CF3487CF0245A778D /* Pods-YJSocialManager_Tests-dummy.m */,
-				80C3BDAA88DCAE10F3CA53794A95B70A /* Pods-YJSocialManager_Tests-frameworks.sh */,
-				9DEFAC0916A47D3C78682513A3F79962 /* Pods-YJSocialManager_Tests-resources.sh */,
-				C24E97D09408FEF6D494AEA671CD57B2 /* Pods-YJSocialManager_Tests-umbrella.h */,
-				0F7358F5588934A74A1EC830085F693B /* Pods-YJSocialManager_Tests.debug.xcconfig */,
-				524B14D8F0C5A864784A9BCF1941314D /* Pods-YJSocialManager_Tests.release.xcconfig */,
+				1F20A375ADD0EEEE3D3B560FEA50B5C5 /* WBHttpRequest.h */,
+				51CD0B84F2D05E1206B0C5C48A0F91EA /* WBHttpRequest+WeiboGame.h */,
+				68C25EABBE6694B3B82B56D62F1C58C8 /* WBHttpRequest+WeiboShare.h */,
+				F8AD52794F33A895E16635B7A3F0035B /* WBHttpRequest+WeiboToken.h */,
+				E48E0B34622FFD0BE145DA911DFEF127 /* WBHttpRequest+WeiboUser.h */,
+				AF1594CC4C252C9165656CFF85D56760 /* WBSDKBasicButton.h */,
+				515C54F9E631BC9847C862BC5446C21A /* WBSDKCommentButton.h */,
+				E6E1F47DE5F41AA6B7D79FCD87B700A3 /* WBSDKRelationshipButton.h */,
+				68213E15D96961576AD8CE1C49B53717 /* WeiboSDK.h */,
+				6757CC96AE7AE574EADA44A1407187BB /* WeiboSDK+Statistics.h */,
+				B281D20269E5F3490DAF21F6BF23A59D /* WeiboUser.h */,
+				09448F3F54A0B17E8FE98C1F59F0CF33 /* Frameworks */,
+				EAF9803A982EEFCEC7AAFBEEEDD44D67 /* Resources */,
 			);
-			name = "Pods-YJSocialManager_Tests";
-			path = "Target Support Files/Pods-YJSocialManager_Tests";
-			sourceTree = "<group>";
-		};
-		B8B5DDF66A00AB319F39C7AB17741F45 /* Pods-YJSocialManager_Example */ = {
-			isa = PBXGroup;
-			children = (
-				178B57BDEE048AB37E1E348228806123 /* Info.plist */,
-				72B5FDD196A463EE93EE6F06CD69D38A /* Pods-YJSocialManager_Example.modulemap */,
-				73990197AE62C504BC7E1EDBE1EF7021 /* Pods-YJSocialManager_Example-acknowledgements.markdown */,
-				54B9E7B8B6D03D4705C5946F53123403 /* Pods-YJSocialManager_Example-acknowledgements.plist */,
-				24D23CAF97A99732392E5DF55890DEFB /* Pods-YJSocialManager_Example-dummy.m */,
-				FEC1209F84DCEF83854238F1A46FD86B /* Pods-YJSocialManager_Example-frameworks.sh */,
-				C321C7BD0E495A6945CFAF26A7E3CCB9 /* Pods-YJSocialManager_Example-resources.sh */,
-				A717E73C742BD2C8887D459D283F62D4 /* Pods-YJSocialManager_Example-umbrella.h */,
-				F35107F48EB1A43CB6EB69E2FF474E25 /* Pods-YJSocialManager_Example.debug.xcconfig */,
-				03F7E41510AC50CD94CFBACCBE9E0EAF /* Pods-YJSocialManager_Example.release.xcconfig */,
-			);
-			name = "Pods-YJSocialManager_Example";
-			path = "Target Support Files/Pods-YJSocialManager_Example";
+			name = Sina;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -197,6 +344,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C3B240B6F89A841A76F2614F09CBE483 /* ReducedSina */ = {
+			isa = PBXGroup;
+			children = (
+				A9355C16558B2F5918299D9076584D7D /* UMSocialSinaHandler.h */,
+				2B5D742AEFFC0C55DCDA530E7E2BBEC1 /* Frameworks */,
+			);
+			name = ReducedSina;
+			sourceTree = "<group>";
+		};
+		C4898726C6A7AF4EC34D30C8F0A1234C /* TencentWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				AD2F8BF6995BC645C3295186239D4294 /* UMSocialTCWeiboHandler.h */,
+				4802CCEB9BEBAA80263884F5A07B452C /* Frameworks */,
+			);
+			name = TencentWeibo;
+			sourceTree = "<group>";
+		};
+		C6B75FACCE3863A8BAAA3817EDA15C1F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CA0278537E7C0D1010799495F3C174DF /* Frameworks */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		CA0278537E7C0D1010799495F3C174DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAACAD1BE0575CD11EB3CB6A01A5156D /* UMSocialNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFD038350497306E71171BF6EC934E3C /* Pods-YJSocialManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				902CB55C1C71116A9044DB372C500372 /* Pods-YJSocialManager_Example-acknowledgements.markdown */,
+				9A526F7DB0990A7B2785BE5351E71E46 /* Pods-YJSocialManager_Example-acknowledgements.plist */,
+				76E5D107BB6DAECA1DABC4D8C21B64F8 /* Pods-YJSocialManager_Example-dummy.m */,
+				FF754AE031DF222593261FFC40D2A9D3 /* Pods-YJSocialManager_Example-frameworks.sh */,
+				228C52055EC86AF29D76BAEE79581CE1 /* Pods-YJSocialManager_Example-resources.sh */,
+				6EDD59C01E21AA56B4418F2EBAEE5E73 /* Pods-YJSocialManager_Example.debug.xcconfig */,
+				CAD151E6A3C03085B9C3BEAC637ABBC7 /* Pods-YJSocialManager_Example.release.xcconfig */,
+			);
+			name = "Pods-YJSocialManager_Example";
+			path = "Target Support Files/Pods-YJSocialManager_Example";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,80 +401,73 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D695B007E8F60306282B274CE7BCF380 /* Products */ = {
+		E4585A60A68269D99A3EE419B25DA36E /* QQ */ = {
 			isa = PBXGroup;
 			children = (
-				4B581CA469C4BB8BCDC9A52EE4ED4235 /* Pods_YJSocialManager_Example.framework */,
-				B96CD68CBA24BAD7BADE88CA0AD8C31E /* Pods_YJSocialManager_Tests.framework */,
-				52AE2BD18257A02F42C7FB1ABB5C994C /* YJSocialManager.framework */,
+				4650072FC8D52BF62F750E7C3DBE2497 /* Frameworks */,
+				35839061CA6D17F46CB94FC421A6094C /* Resources */,
 			);
-			name = Products;
+			name = QQ;
 			sourceTree = "<group>";
 		};
-		F40BC2B1EE0D8C3B31B44514BC79CC3E /* Targets Support Files */ = {
+		E6DBFBDAB304F6314F67ECA1691C666C /* UMengUShare */ = {
 			isa = PBXGroup;
 			children = (
-				B8B5DDF66A00AB319F39C7AB17741F45 /* Pods-YJSocialManager_Example */,
-				A3FD362426351EB78F04126C5B4D0CE1 /* Pods-YJSocialManager_Tests */,
+				19F170EB664CEF21A6D256A5215C0908 /* Core */,
+				C6B75FACCE3863A8BAAA3817EDA15C1F /* Network */,
+				5B4F8AB6A7F3BDBC1D1644BF11FC5DCD /* Social */,
 			);
-			name = "Targets Support Files";
+			name = UMengUShare;
+			path = UMengUShare;
+			sourceTree = "<group>";
+		};
+		E8928CCB8E635A56D99D7A5D40ADFB8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB687D43E2E6F9E336FCA414DE3B50EB /* libSocialQQ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E95F47446FF0747A84BB661AA3529CB5 /* ReducedQQ */ = {
+			isa = PBXGroup;
+			children = (
+				BF3AC68D9C8E2ADC7128EAB5FAD708DF /* UMSocialQQHandler.h */,
+				E8928CCB8E635A56D99D7A5D40ADFB8D /* Frameworks */,
+			);
+			name = ReducedQQ;
+			sourceTree = "<group>";
+		};
+		EAF9803A982EEFCEC7AAFBEEEDD44D67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				233B89078066459AB6C1AE9A3F0A004A /* WeiboSDK.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2624EBDF9A8C0D221FF01DB832770BD9 /* Headers */ = {
+		AE74EB1A887965B0AA730F41379DB6D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6977D59DE3E1A9EA12A1ABAFE990BE22 /* YJSocialManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CA5B5A1031A8F7F43C3081953FD64B9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD3C277CC16C9A677C569A7C128FD8B4 /* Pods-YJSocialManager_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D899C6F3B48ED74790EE2549A575403 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FCE9E7B136C4F5D5CE7B61DCF6C56B3 /* Pods-YJSocialManager_Tests-umbrella.h in Headers */,
+				12FD48793835069278D5D798346431A5 /* YJSocailUserInfo.h in Headers */,
+				9DEE0B18633622B0B4F86C1DC1E1146A /* YJSocialAppCofig.h in Headers */,
+				54B7A74C36F7CF61EB77724B51B4F261 /* YJSocialManger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C6A9D12143A6D71CFA8C6FC477171FB /* Pods-YJSocialManager_Example */ = {
+		3DEAB1177B7E688DF16C6C0CFB5B2E76 /* Pods-YJSocialManager_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 460FFC4455374B5C378BDD4E463D0B4C /* Build configuration list for PBXNativeTarget "Pods-YJSocialManager_Example" */;
+			buildConfigurationList = F8C8525555F55EB68DC4CD74D7F921D8 /* Build configuration list for PBXNativeTarget "Pods-YJSocialManager_Tests" */;
 			buildPhases = (
-				DCD36A82F4FB9FA1C8F5B0DBDA4670DA /* Sources */,
-				C8E607C855B83BC41EC7FCAEDAF18125 /* Frameworks */,
-				2CA5B5A1031A8F7F43C3081953FD64B9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				289C42E39A4D87EFB968A68AA0386406 /* PBXTargetDependency */,
-			);
-			name = "Pods-YJSocialManager_Example";
-			productName = "Pods-YJSocialManager_Example";
-			productReference = 4B581CA469C4BB8BCDC9A52EE4ED4235 /* Pods_YJSocialManager_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4CCD204ECF70721AEFF40FC322713DCF /* Pods-YJSocialManager_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2F1E8B3ACE4C34D7726EF43EAC58EF34 /* Build configuration list for PBXNativeTarget "Pods-YJSocialManager_Tests" */;
-			buildPhases = (
-				38E4A935BFCF913AD88E9C0679801C80 /* Sources */,
-				00D4E95964CB23EEDDF6C3693D3012FA /* Frameworks */,
-				3D899C6F3B48ED74790EE2549A575403 /* Headers */,
+				FF1E5FDF2F8DC50F1DE92BC0A19488FE /* Sources */,
+				3794E8B4A7C8500EC93FC7D42FFA1FBB /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,16 +475,16 @@
 			);
 			name = "Pods-YJSocialManager_Tests";
 			productName = "Pods-YJSocialManager_Tests";
-			productReference = B96CD68CBA24BAD7BADE88CA0AD8C31E /* Pods_YJSocialManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 425A523BE757C4DC2246ED3B497AB20B /* libPods-YJSocialManager_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		5B1D69E12C13C8127DEB16EF49ECC8FB /* YJSocialManager */ = {
+		5E667A556D399E3FBB172AB86D7FF827 /* YJSocialManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1264791D6A18662FB0914F204192F1AE /* Build configuration list for PBXNativeTarget "YJSocialManager" */;
+			buildConfigurationList = BFDD1B12B5FF38C61977E8D8FE14C1FA /* Build configuration list for PBXNativeTarget "YJSocialManager" */;
 			buildPhases = (
-				097153078A039B0B54CF8CC613CFF455 /* Sources */,
-				1953A48A602D50AB0CCB9CE1928324D1 /* Frameworks */,
-				2624EBDF9A8C0D221FF01DB832770BD9 /* Headers */,
+				A9ABECDDB20B3A58AD466DE7F7D5481A /* Sources */,
+				8004BBEF16AD3598087189DD3A4ACEF3 /* Frameworks */,
+				AE74EB1A887965B0AA730F41379DB6D3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -303,8 +492,25 @@
 			);
 			name = YJSocialManager;
 			productName = YJSocialManager;
-			productReference = 52AE2BD18257A02F42C7FB1ABB5C994C /* YJSocialManager.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = AB1577FF7496D344F57FC2FA53DF0666 /* libYJSocialManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C66FEAB5D8DDD7763DA3D99E7DD30569 /* Pods-YJSocialManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08509D0A6058D141C6935B8E5FEF891D /* Build configuration list for PBXNativeTarget "Pods-YJSocialManager_Example" */;
+			buildPhases = (
+				2D043E0488CA7F3FA1EDB0ABBD7BF6AC /* Sources */,
+				77380FA8F261BA2A49B0550AC824BB9B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70475B1D8E477989166A5ECF4484A481 /* PBXTargetDependency */,
+			);
+			name = "Pods-YJSocialManager_Example";
+			productName = "Pods-YJSocialManager_Example";
+			productReference = 417ACEABCBF749A2940E56F9B47D6B60 /* libPods-YJSocialManager_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -323,86 +529,101 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D695B007E8F60306282B274CE7BCF380 /* Products */;
+			productRefGroup = 3323621246A108661663AE9E351AD3A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C6A9D12143A6D71CFA8C6FC477171FB /* Pods-YJSocialManager_Example */,
-				4CCD204ECF70721AEFF40FC322713DCF /* Pods-YJSocialManager_Tests */,
-				5B1D69E12C13C8127DEB16EF49ECC8FB /* YJSocialManager */,
+				C66FEAB5D8DDD7763DA3D99E7DD30569 /* Pods-YJSocialManager_Example */,
+				3DEAB1177B7E688DF16C6C0CFB5B2E76 /* Pods-YJSocialManager_Tests */,
+				5E667A556D399E3FBB172AB86D7FF827 /* YJSocialManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		097153078A039B0B54CF8CC613CFF455 /* Sources */ = {
+		2D043E0488CA7F3FA1EDB0ABBD7BF6AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15CE4008BCDC423E7DEF0726B6DB0C93 /* ReplaceMe.m in Sources */,
-				83A3B1F9879106F8759336D8DAFDFB7C /* YJSocialManager-dummy.m in Sources */,
+				C9FA378AC62ADE5A99B44E3074938C92 /* Pods-YJSocialManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38E4A935BFCF913AD88E9C0679801C80 /* Sources */ = {
+		A9ABECDDB20B3A58AD466DE7F7D5481A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DA698E3D5B2CF4CE1CBA1D82B32D99 /* Pods-YJSocialManager_Tests-dummy.m in Sources */,
+				6892630DE358B2955058E6DEB2C8E842 /* YJSocailUserInfo.m in Sources */,
+				8FF110FC23282BB738D0EE05DB0C731E /* YJSocialManager-dummy.m in Sources */,
+				22748001D94B2CCBA3054DFF1DD2ADF7 /* YJSocialManger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCD36A82F4FB9FA1C8F5B0DBDA4670DA /* Sources */ = {
+		FF1E5FDF2F8DC50F1DE92BC0A19488FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF16D069963059C60A7C538458243FEA /* Pods-YJSocialManager_Example-dummy.m in Sources */,
+				E1A3FE31368E7D2AB308B4A9C23ABF1F /* Pods-YJSocialManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		289C42E39A4D87EFB968A68AA0386406 /* PBXTargetDependency */ = {
+		70475B1D8E477989166A5ECF4484A481 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YJSocialManager;
-			target = 5B1D69E12C13C8127DEB16EF49ECC8FB /* YJSocialManager */;
-			targetProxy = DD815DA8C24B936E3679A8F94C5313B7 /* PBXContainerItemProxy */;
+			target = 5E667A556D399E3FBB172AB86D7FF827 /* YJSocialManager */;
+			targetProxy = 021A6E17A23156819E3ABA506D188C61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1843EA3F3D96BA874FAA20207CEE4C8C /* Release */ = {
+		062F92FAF21D577EB232C716EA7B0363 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F0824EE82A5F7049E24C5B41ED11A7E /* YJSocialManager.xcconfig */;
+			baseConfigurationReference = 6EDD59C01E21AA56B4418F2EBAEE5E73 /* Pods-YJSocialManager_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1E37D1D645699D4D1717E8C854F32852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86FA0F5165048E9FF7F5630CDCB67F6E /* YJSocialManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/YJSocialManager/YJSocialManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YJSocialManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YJSocialManager/YJSocialManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = YJSocialManager;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -452,74 +673,6 @@
 			};
 			name = Debug;
 		};
-		4D1F32A8D5066D45F60124B5152DB2BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F0824EE82A5F7049E24C5B41ED11A7E /* YJSocialManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/YJSocialManager/YJSocialManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YJSocialManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YJSocialManager/YJSocialManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = YJSocialManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6D03FB1FABD9B772EF80CC6E36269216 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03F7E41510AC50CD94CFBACCBE9E0EAF /* Pods-YJSocialManager_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YJSocialManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YJSocialManager_Example/Pods-YJSocialManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YJSocialManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -564,122 +717,106 @@
 			};
 			name = Release;
 		};
-		8FC85D3505799910D5F6DE68E0924351 /* Debug */ = {
+		9BFE6FCB4D369E0EB49573C2272B86DF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F7358F5588934A74A1EC830085F693B /* Pods-YJSocialManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = 58B2639B6EC5971A704F9C9CB6F60D53 /* Pods-YJSocialManager_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YJSocialManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YJSocialManager_Tests/Pods-YJSocialManager_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YJSocialManager_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		94BFAE4533D8EB65F35075B0CAFF1CAA /* Release */ = {
+		CAA36BF1E45DA72E5313461971311723 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 524B14D8F0C5A864784A9BCF1941314D /* Pods-YJSocialManager_Tests.release.xcconfig */;
+			baseConfigurationReference = 86FA0F5165048E9FF7F5630CDCB67F6E /* YJSocialManager.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YJSocialManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/YJSocialManager/YJSocialManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D41A4BC451B3DB40A993A74D81A59FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD151E6A3C03085B9C3BEAC637ABBC7 /* Pods-YJSocialManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YJSocialManager_Tests/Pods-YJSocialManager_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YJSocialManager_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		9BF4EA5400FEAFB85DC1C35914E0DD0B /* Debug */ = {
+		F945E270C7C35D3B0133A6C22DBB2F57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F35107F48EB1A43CB6EB69E2FF474E25 /* Pods-YJSocialManager_Example.debug.xcconfig */;
+			baseConfigurationReference = 262BFE37A5F2162E6C8E81D77BA2D75A /* Pods-YJSocialManager_Tests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YJSocialManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YJSocialManager_Example/Pods-YJSocialManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YJSocialManager_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1264791D6A18662FB0914F204192F1AE /* Build configuration list for PBXNativeTarget "YJSocialManager" */ = {
+		08509D0A6058D141C6935B8E5FEF891D /* Build configuration list for PBXNativeTarget "Pods-YJSocialManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D1F32A8D5066D45F60124B5152DB2BA /* Debug */,
-				1843EA3F3D96BA874FAA20207CEE4C8C /* Release */,
+				062F92FAF21D577EB232C716EA7B0363 /* Debug */,
+				D41A4BC451B3DB40A993A74D81A59FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -693,20 +830,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F1E8B3ACE4C34D7726EF43EAC58EF34 /* Build configuration list for PBXNativeTarget "Pods-YJSocialManager_Tests" */ = {
+		BFDD1B12B5FF38C61977E8D8FE14C1FA /* Build configuration list for PBXNativeTarget "YJSocialManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FC85D3505799910D5F6DE68E0924351 /* Debug */,
-				94BFAE4533D8EB65F35075B0CAFF1CAA /* Release */,
+				1E37D1D645699D4D1717E8C854F32852 /* Debug */,
+				CAA36BF1E45DA72E5313461971311723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		460FFC4455374B5C378BDD4E463D0B4C /* Build configuration list for PBXNativeTarget "Pods-YJSocialManager_Example" */ = {
+		F8C8525555F55EB68DC4CD74D7F921D8 /* Build configuration list for PBXNativeTarget "Pods-YJSocialManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BF4EA5400FEAFB85DC1C35914E0DD0B /* Debug */,
-				6D03FB1FABD9B772EF80CC6E36269216 /* Release */,
+				9BFE6FCB4D369E0EB49573C2272B86DF /* Debug */,
+				F945E270C7C35D3B0133A6C22DBB2F57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

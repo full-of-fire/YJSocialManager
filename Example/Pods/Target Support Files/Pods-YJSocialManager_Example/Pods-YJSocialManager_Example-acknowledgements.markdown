@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## UMengUShare
+
+Copyright 2011 - 2017 UMeng.com. All rights reserved.
+
+
 ## YJSocialManager
 
 Copyright (c) 2017 full-of-fire <591730822@qq.com>

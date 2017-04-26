@@ -6,41 +6,74 @@
 //  Copyright (c) 2017 full-of-fire. All rights reserved.
 //
 
-#import "YJAppDelegate.h"
+//友盟的appKey
+#define UMAppKey @"56e27cba67e58ef1b8000225"
+// 微信
+#define WXAppID @"wx9b1115ae58a598e6"
+#define WXAppSecret @"e197cd74681e57607b1beaca634ba2fb"
 
+// QQ
+#define QQAppID @"1105134441"
+#define QQAppSecret @"HjlVIac2uURp3jry"
+
+// 新浪2045436852,1376281532
+#define KSinaAppKey @"1376281532"
+#define KSinaAppSecret @"17b54f18dcbca79df327eecf0aa8c3b7"
+#define kRedirectURI @"https://api.weibo.com/oauth2/default.html"
+
+#import "YJAppDelegate.h"
+#import <YJSocialManager/YJSocialManger.h>
 @implementation YJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    //1.注册微信、QQ、新浪SDK
+    [[YJSocialManger sharedManger] registPlatform:YJSocialPlatfromType_QQ appKey:QQAppID appSecret:QQAppSecret redirectURL:nil];
+    [[YJSocialManger sharedManger] registPlatform:YJSocialPlatfromType_WechatSession appKey:WXAppID appSecret:WXAppSecret redirectURL:nil];
+    
+    [[YJSocialManger sharedManger] registPlatform:YJSocialPlatfromType_Sina appKey:KSinaAppKey appSecret:KSinaAppSecret redirectURL:kRedirectURI];
+    
+    //2.注册UMSDK
+    [[YJSocialManger sharedManger] startSocialSDKWithAppKey:UMAppKey openLog:NO];
+
+    
+    
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
+
+#pragma mark - 回调
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
 {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    BOOL result = [[YJSocialManger sharedManger] handldeOpenURL:url];
+    
+    if (result == NO) {
+        
+        //在这里调用其他SDK
+        
+        
+    }
+    
+    return result;
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    BOOL result = [[YJSocialManger sharedManger] handleOpenURL:url sourceApplication:sourceApplication annotation:annotation];
+    
+    if (result == NO) {
+        
+        //在这里调用其他SDK
+        
+    }
+    
+    return result;
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
 
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
 
 @end
