@@ -1,0 +1,6 @@
+framework module YJSocialManager {
+  umbrella header "YJSocialManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

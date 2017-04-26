@@ -1,0 +1,16 @@
+PODS:
+  - YJSocialManager (0.1.0)
+
+DEPENDENCIES:
+  - YJSocialManager (from `../`)
+
+EXTERNAL SOURCES:
+  YJSocialManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YJSocialManager: fb4790288c7eb23914b28b38ff23115a71f822bb
+
+PODFILE CHECKSUM: 0e0a71461a090ec53e2661d1c6f50374361f83ed
+
+COCOAPODS: 1.2.1
