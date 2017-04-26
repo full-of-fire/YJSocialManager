@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJSocialManager'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '社会化分享，常见的QQ/微信/微博 的登录组件.'
 
 # This description is used to generate tags and improve search results.
@@ -36,5 +36,9 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-end
+   s.dependency 'UMengUShare/Social/Sina'
+   s.dependency 'UMengUShare/Social/WeChat'
+   s.dependency 'UMengUShare/Social/QQ'
+   s.dependency 'UMengUShare/Social/TencentWeibo'
+
+ end
