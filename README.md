@@ -10,17 +10,20 @@
 1、To run the example project, clone the repo, and run `pod install` from the Example directory first.
 2、初始化SDK
 
-``` //1.注册微信、QQ、新浪SDK
+``` 
+//1.注册微信、QQ、新浪SDK
 [[YJSocialManger sharedManger] registPlatform:YJSocialPlatfromType_QQ appKey:QQAppID appSecret:QQAppSecret redirectURL:nil];
 [[YJSocialManger sharedManger] registPlatform:YJSocialPlatfromType_WechatSession appKey:WXAppID appSecret:WXAppSecret redirectURL:nil];
 
 [[YJSocialManger sharedManger] registPlatform:YJSocialPlatfromType_Sina appKey:KSinaAppKey appSecret:KSinaAppSecret redirectURL:kRedirectURI];
 
 //2.注册UMSDK
-[[YJSocialManger sharedManger] startSocialSDKWithAppKey:UMAppKey openLog:NO];```
+[[YJSocialManger sharedManger] startSocialSDKWithAppKey:UMAppKey openLog:NO];
+```
 3、处理回调
 
-``` #pragma mark - 回调
+``` 
+#pragma mark - 回调
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
 {
 BOOL result = [[YJSocialManger sharedManger] handldeOpenURL:url];
@@ -49,15 +52,19 @@ if (result == NO) {
 }
 
 return result;
-}```
+}
+```
 4、添加`NSAppTransportSecurity`
-```<key>NSAppTransportSecurity</key>
+```
+<key>NSAppTransportSecurity</key>
 <dict>
 <key>NSAllowsArbitraryLoads</key>
 <true/>
-</dict>```
+</dict>
+```
 添加白名单
-```<key>LSApplicationQueriesSchemes</key>
+```
+<key>LSApplicationQueriesSchemes</key>
 <array>
 <!-- 微信 URL Scheme 白名单-->
 <string>wechat</string>
@@ -96,7 +103,8 @@ return result;
 <string>mqzoneopensdkapi</string>
 <string>mqqbrowser</string>
 <string>mttbrowser</string>
-</array>```
+</array>
+```
 5、配置URL Scheme
 ![11474533850_.pic_hd.jpeg](http://upload-images.jianshu.io/upload_images/970305-38d78f9660e9b777.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 配置规则如下
