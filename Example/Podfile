@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YJSocialManager_Example' do
+  pod 'YJSocialManager', :path => '../'
+
+  target 'YJSocialManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
